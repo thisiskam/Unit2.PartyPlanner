@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Party Planner</h1>
+    <form id="addEvent">
+        <h2 class="formItem">Add An Event</h2>
+        <input class="formItem"type="text" name="name" placeholder="Event Name"/>
+        <textarea class="formItem"name="description" placeholder="details" cols="30" rows="10"></textarea>
+        <!-- <input type="text" name="description" placeholder="description"> -->
+        <input  class="formItem"type="datetime-local" name="date" placeholder="date"/>
+        <input class="formItem"type="text" name="location" placeholder="location"/>
+        <button class="formItem">Add Event</button>
+    </form>
+    <ul id="events"></ul>
+</body>
+</html>

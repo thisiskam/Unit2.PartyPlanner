@@ -1,0 +1,29 @@
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px
+}
+
+.formItem {
+    margin-top: 10px;
+}
+
+li {
+    border: 2px solid black;
+    list-style: none;
+    padding: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
